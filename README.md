@@ -1,6 +1,6 @@
 # [Boilerplate] DEM
 
-[![GitHub release](https://img.shields.io/badge/Release-1.0-lightgrey.svg)](https://github.com/lucacattide/dem-boilerplate/releases/tag/1.0)
+[![GitHub release](https://img.shields.io/badge/Release-1.1-lightgrey.svg)](https://github.com/lucacattide/dem-boilerplate/releases/tag/1.1)
 [![GitHub contributors](https://img.shields.io/badge/Contributors-1-lightgrey.svg)](https://github.com/lucacattide/dem-boilerplate/graphs/contributors)
 
 ## Team
