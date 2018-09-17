@@ -2,6 +2,7 @@
 <!--Inizio HTML-->
 <html lang="">
   <!--Inizio Head-->
+
   <head>
     <!--Inizio Meta Tags-->
     <meta charset="UTF-8">
@@ -11,77 +12,170 @@
     <title></title>
     <!--Fine Meta Tags-->
     <!--Inizio CSS-->
-    <style type="text/css"></style>
+    <style type="text/css">
+      /* Clients */
+      body,
+      table,
+      td,
+      a {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      /* Reset */
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+      }
+
+      img {
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+        outline: none;
+        text-decoration: none;
+      }
+
+      table {
+        border-collapse: collapse !important;
+      }
+
+      /* Hacks */
+      /* iOS Links */
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        text-decoration: none !important;
+      }
+
+      /* Fix Centratura Android */
+      div[style*="margin: 16px 0;"] {
+        margin: 0 !important;
+      }
+
+      @media all and (max-width:639px) {
+        *[class="mobileOff"] {
+          display: none !important;
+          width: 0px !important;
+        }
+
+        *[class*="mobileOn"] {
+          display: block !important;
+          max-height: none !important;
+        }
+
+        .container {
+          padding: 0 !important;
+          width: 300px !important;
+        }
+
+        .img {
+          height: auto !important;
+          width: 100% !important;
+        }
+
+        .mobile {
+          display: block !important;
+          padding: 0 !important;
+          width: 300px !important;
+        }
+
+        .wrapper {
+          padding: 0 !important;
+          width: 320px !important;
+        }
+      }
+
+    </style>
     <!--Fine CSS-->
   </head>
   <!--Inizio Body-->
+
   <body style="margin: 0; padding: 0;">
     <!--Pre-Header-->
     <span style="color: transparent; display: none !important; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;"></span>
+    <!--Mobile-->
+    <span style="display: block; width: 640px !important; max-width: 640px; height: 1px" class="mobileOff"></span>
     <center>
       <!--Inizio Container-->
-      <table border="0" cellpadding="0" cellspacing="0" class="container" role="presentation" style="border: 0; margin-left: auto; margin-right: auto; max-width: 600px; width: 100%;" width="100%">
-        <!--Inizio Header-->
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border: 0; width: 100%;"
+        width="100%">
         <tr role="row">
-          <td align="center" style="text-align: center; vertical-align: top;" valign="top"> 
-          </td>
-        </tr>
-        <!--Fine Header-->
-        <tr role="row">
-          <td align="center" class="wrapper" height="12px" style="font-size: 12px; line-height: 12px; text-align: center; vertical-align: top;" valign="top">
-            <!--Inizio Wrapper-->
-            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border: 0; margin-left: auto; margin-right: auto; max-width: 568px; padding-left: 16px; padding-right: 16px; width: 100%;" width="100%">
+          <td align="center" style="text-align: center; vertical-align: top;" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border: 0; margin-left: auto; margin-right: auto; max-width: 600px; width: 100%;"
+              width="100%">
+              <tr role="row">
+                <td height="10px" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+              </tr>
+              <!--Inizio Wrapper-->
               <tr role="row">
                 <td align="center" style="text-align: center; vertical-align: top;" align="top">
-                  <!--Pulsanti-->
-                  <!--
-                    <table bgcolor="" border="0" cellpadding="0" cellspacing="0" height="48" style="background-color: ; border: 0; border-radius: 4px; max-width: ;" width="">
-                      <tr>
-                        <td align="center" valign="middle" height="48" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-align: center; vertical-align: middle;">
-                          <a href="#" style="color:#000000; display: inline-block; font-family: Arial, sans-serif; font-weight:bold; line-height:48px; outline: none; text-decoration: none; width: ;" tabindex="" target="_blank">Button</a>
-                        </td>
-                      </tr>
-                    </table>
-                  -->
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border: 0; margin-left: auto; margin-right: auto; max-width: 600px; width: 100%;" width="100%">
+                    <tr role="row">
+                      <td align="center" style="text-align: center; vertical-align: top;" align="top">Sezione</td>
+                      <td class="mobile" align="center" style="text-align: center; vertical-align: top;" align="top">Sezione</td>
+                      <td class="mobile" align="center" style="text-align: center; vertical-align: top;" align="top">Sezione</td>
+                    </tr>
+                  </table>
                 </td>
-                <!--Immagini-->
-                <!--Racchiudere in <td> e dichiarare attributi width/height per Outlook 2013 Hack-->
-                <!--
-                  <td align="center" valign="middle" style="text-align: center; vertical-align: middle;">
-                    <img alt="" border="0" height="" src="" style="border: none; display: block; height: ; margin: 0; padding: 0; max-width: ;" user-select: none; width="" />
-                  </td>
-                -->
-                <!--Con celle multiple consecutive su mobile-->
-                <!--Aggiungere &nbsp; per Outlook 2013 Hack-->
-                <!-- <td class="mobile__on" height="12px" style="font-size: 12px; line-height: 12px;">&nbsp;</td>  -->
               </tr>
+              <tr role="row">
+                <td height="10px" style="font-size: 10px; line-height: 10px;">&nbsp;</td>
+              </tr>
+              <!--Fine Wrapper-->
+
+              <!--Pulsanti-->
+              <!--
+                <table bgcolor="" border="0" cellpadding="0" cellspacing="0" height="48" style="background-color: ; border: 0; border-radius: 4px; max-width: ;" width="">
+                  <tr>
+                    <td align="center" valign="middle" height="48" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-align: center; vertical-align: middle;">
+                      <a href="#" style="color:#000000; display: inline-block; font-family: Arial, sans-serif; font-weight:bold; line-height:48px; outline: none; text-decoration: none; width: ;" tabindex="" target="_blank">Button</a>
+                    </td>
+                  </tr>
+                </table>
+              -->
+
+              <!--Immagini-->
+              <!--Racchiudere in <td> e dichiarare attributi width/height per Outlook 2013 Hack-->
+              <!--
+                <td align="center" valign="middle" style="text-align: center; vertical-align: middle;">
+                  <img alt="" border="0" height="" src="" style="border: none; display: block; height: ; margin: 0; padding: 0; max-width: ;" user-select: none; width="" />
+                </td>
+              -->
+
+              <!--Con celle multiple consecutive su mobile-->
+              <!--Aggiungere &nbsp; per Outlook 2013 Hack-->
+              <!-- <td class="mobile__on" height="12px" style="font-size: 12px; line-height: 12px;">&nbsp;</td>  -->
             </table>
-            <!--Fine Wrapper-->
             <!--Inizio sezione versione mobile-->
             <!--[if !mso]><!-- -->
-              <!-- 
-              <div class="mobile__on" style="display: none; font-size: 0; max-height: 0; overflow: hidden;">                
-                <table align="center" cellspacing="0" cellpadding="0" border="0" class="mobile" role="presentation" style="border: 0; margin-left: auto; margin-right: auto; max-width: 320px; width: 100%;" width="100%">    
+            <!--
+              <div class="mobile__on" style="display: none; font-size: 0; max-height: 0; overflow: hidden;">
+                <table align="center" cellspacing="0" cellpadding="0" border="0" class="mobile" role="presentation" style="border: 0; margin-left: auto; margin-right: auto; max-width: 320px; width: 100%;" width="100%">
                   <tr>
                     <td align="center" style="text-align: center; vertical-align: top;" align="top">
                   </tr>
-                </table>                                                                    
-              </div> 
-              -->                                                                    
+                </table>
+              </div>
+              -->
             <!--<![endif]-->
             <!--Fine sezione versione mobile-->
           </td>
         </tr>
-        <!--Inizio Footer-->
-        <tr role="row">
-          <td align="center" style="text-align: center; vertical-align: top;" valign="top">
-          </td>
-        </tr>
-        <!--Fine Footer-->
       </table>
       <!--Fine Container-->
     </center>
   </body>
   <!--Fine Body-->
+
 </html>
 <!--Fine HTML-->
