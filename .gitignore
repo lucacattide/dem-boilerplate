@@ -1,6 +1,6 @@
 # Configurazione Repository
-
 /node_modules/
 /.jsbeautifyrc
+/.vscode
 /gulpfile.js
-/package.json
+/*.json
