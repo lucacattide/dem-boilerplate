@@ -8,9 +8,7 @@
     "url": "",
     "email": "info@lucacattide.dev"
   },
-  "license": {
-    "license": "LICENSE"
-  },
+  "license": "UNLICENSED",
   "main": "index.html",
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -19,10 +17,10 @@
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^6.2.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-size": "^3.0.0",
     "gulp-strip-debug": "^3.0.0",
-    "imports-loader": "^0.8.0",
+    "imports-loader": "^1.2.0",
     "path": "^0.12.7",
     "pump": "^3.0.0"
   },
