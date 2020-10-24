@@ -47,7 +47,7 @@ Please read about its specifications before commit on any branch.
 
 ### Commits
 
-Oficial Udacity Git commit message style guide is used. Please consult the docs (http://udacity.github.io/git-styleguide/) for details.
+Official Udacity Git commit message style guide is used. Please consult the docs (http://udacity.github.io/git-styleguide/) for details.
 
 
 ### Merges
