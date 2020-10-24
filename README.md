@@ -73,15 +73,9 @@ For information please consult the European Directive (http://tinyurl.com/qayqqh
 
 ## 6) Legal
 
-1. Nominative
-   - NAME
-2. Tax Code
-   - CODE
-3. Residence
-   - ADDRESS
-4. Contacts
+1. Contacts
    - Phone: PHONE;
-   - E-Mail: EMAIL;
+   - E-Mail: E-MAIL;
    - Website: URL;
 
 - Registrations
@@ -95,4 +89,4 @@ For information please consult the European Directive (http://tinyurl.com/qayqqh
 
 - Third-party softwares are covered by respective EULA;
 
-- Only proprietary content of Luca Cattide, are covered by Creative Commons License - Attribution - No Derivative Works 3.0 Italy [CC BY-ND 3.0 IT (http://tinyurl.com/k5thym8)];
+- Only proprietary content of NAME, are covered by Creative Commons License - Attribution - No Derivative Works 3.0 Italy [CC BY-ND 3.0 IT (http://tinyurl.com/k5thym8)];
